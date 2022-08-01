@@ -1,6 +1,5 @@
 #include<iostream>
-#include<ctime>
-#include<array>
+
 using namespace std;
 
 class student{
@@ -237,12 +236,7 @@ int main(){
     // copyright 
     cout<<"\n\n                                           @sayan6823  [Sayan Chattopadhyay]\n\n\n\n";
     
-    // Print the Date and Time
-    time_t  t = time(NULL);
-    tm * tPtr = localtime(&t);
-    cout<<"Date:"<<tPtr->tm_mday<<"/"<<tPtr->tm_mon+1<<"/"<<tPtr->tm_year+1900<<endl;
-    cout<<"Time:"<<tPtr->tm_hour<<"/"<<tPtr->tm_min<<"/"<<tPtr->tm_sec<<endl;
-
+    
     // Basic design to display the project name and details    
     design();
     
